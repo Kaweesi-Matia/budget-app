@@ -1,0 +1,18 @@
+<header>
+ <%= link_to "Back", category_transactions_path, class: 'back_btn' %>
+
+ <h1> New Transaction</h1>
+
+  <% if user_signed_in? %>
+    <%= button_to "Logout", destroy_user_session_path, method: :delete, data: {turbo: false}, class: "btn bg-danger"  %>
+  <% end %>
+
+</header>
+
+<%= render partial: "form", locals: {transaction: @transaction} %>
+
+<br>
+
+<footer>
+  <%= link_to "Back to transactions", category_transactions_path %>
+</footer>
