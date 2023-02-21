@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature 'Groups', type: :feature do
+RSpec.feature 'Groups', type: :feature do # rubocop:disable Metrics/BlockLength
   background do
     visit root_path
     click_link 'Sign up'
