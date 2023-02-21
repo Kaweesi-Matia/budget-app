@@ -14,15 +14,14 @@
  *= require_self
  */
 
- 
 :root {
   --header-height: 55px;
   --footer-height: 45px;
 }
 
 @font-face {
-  font-family: 'Proxima Nova Light';
-  src: url('proxima_nova.ttf');
+  font-family: "Proxima Nova Light";
+  src: url("proxima_nova.ttf");
 }
 
 .alert,
@@ -41,19 +40,16 @@
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
-  
 }
 
 .splash_page .splash_activities {
   margin-bottom: 12px;
- 
 }
 
 footer a {
   color: rgb(255, 255, 255);
   font-weight: 600;
   text-decoration: none;
-  
 }
 
 .splash_activities a {
@@ -65,8 +61,6 @@ footer a {
   height: 48px;
   color: rgb(255, 255, 255);
   cursor: pointer;
-  
- 
 }
 
 .button_sign-in {
@@ -76,15 +70,14 @@ footer a {
 
 body {
   color: rgb(67, 75, 84);
-  font-family: 'Proxima Nova Light', 'Lato', sans-serif;
+  font-family: "Proxima Nova Light", "Lato", sans-serif;
   padding: 0px;
   margin: 0px;
-  
 }
 
 header {
   display: flex;
- 
+
   flex-direction: row;
   justify-content: space-between;
   height: var(--header-height);
@@ -92,8 +85,6 @@ header {
   color: rgb(255, 255, 255);
   width: 100%;
   align-items: center;
-  
- 
 }
 
 header * {
@@ -102,25 +93,23 @@ header * {
 
 .login-button {
   display: inline-flex;
- 
+
   border: none;
   text-decoration: none;
   color: rgb(67, 75, 84);
   background: rgb(67, 75, 84);
- 
+
   text-align: center;
   height: 30px;
   border-radius: 5px;
-  
+
   font-size: 0.938rem;
   cursor: pointer;
- 
 }
 
 .danger {
   background: rgb(255, 69, 0);
   color: rgb(255, 255, 255);
-;
 }
 
 main {
@@ -151,28 +140,22 @@ footer {
 .category-container {
   display: flex;
   width: 100%;
- 
+
   text-decoration: none;
- 
 }
 
 .category-div {
   display: flex;
   width: calc(100% - 1rem);
- 
+
   align-items: center;
   padding: 0.625rem;
- 
 }
-
-
 
 .category-div .icon {
   width: 4.375rem;
   border-radius: 0.25rem;
   height: 4.375rem;
-
-
 }
 
 .category-div .details {
@@ -184,27 +167,23 @@ footer {
   justify-content: space-between;
   padding-top: 0.75rem;
   color: rgb(67, 75, 84);
-
 }
 
 .category-div .details .category-top {
   display: inline-flex;
   justify-content: space-between;
   width: 100%;
- 
 }
 
 .category-div .details .category-top .category_name {
   margin: 0px;
   font-size: 1rem;
- 
 }
 
 .category-div .details .category-top .category_total {
   font-weight: 900;
   font-size: 1.125rem;
   color: rgb(67, 75, 84);
- 
 }
 
 .category-div .details .category-bottom {
@@ -212,8 +191,6 @@ footer {
   justify-content: space-between;
   align-content: center;
   margin-bottom: -0.375rem;
-  
- 
 }
 
 /* .category-div .details .category-bottom  button.btn {
@@ -231,7 +208,6 @@ footer {
   align-content: center;
   font-weight: 500;
   font-size: 0.875rem;
-
 }
 
 /* .new_category .new_transaction {
@@ -243,17 +219,14 @@ footer {
 } */
 
 .actions input {
-  
   margin: auto;
   background-color: rgb(55, 120, 194);
   color: rgb(255, 255, 255);
   cursor: pointer;
- 
+
   display: flex;
   justify-content: center;
-
 }
-
 
 .input-wrapper select,
 .new_category .category-input input,
@@ -264,27 +237,26 @@ footer {
   padding: 0.25rem;
   border-radius: 0.313rem;
   width: 100%;
-  
+
   margin-top: 10px;
   border: 1px solid rgb(67, 75, 84);
   color: rgb(67, 75, 84);
-  background: rgb(255, 255, 255)
- 
+  background: rgb(255, 255, 255);
 }
 
 .back-button {
   display: inline-flex;
-  
+
   padding: 6px;
   border: none;
   text-decoration: none;
-  color:rgb(67, 75, 84);
+  color: rgb(67, 75, 84);
   background-color: rgb(255, 255, 255);
   align-items: center;
   align-content: center;
   height: 1.875rem;
   border-radius: 0.313rem;
- 
+
   margin-top: 0px;
   margin-left: 5px;
   /* box-shadow: 0 3px 6px #434b54; */
@@ -296,7 +268,6 @@ footer {
 .new_transaction .input-fields,
 .new_category .input-fields {
   width: 100%;
- 
 }
 
 .auth-form,
@@ -305,20 +276,17 @@ footer {
   flex-direction: column;
   display: flex;
   margin: 0 auto;
-  
-  padding: 0.25rem;
- 
-}
 
+  padding: 0.25rem;
+}
 
 .auth-form .field input::placeholder,
 .new_transaction .input-fields input::placeholder,
 .new_category .input-fields input::placeholder {
   font-size: 0.813;
-  font-family: 'Proxima Nova Light', 'Lato', sans-serif;
+  font-family: "Proxima Nova Light", "Lato", sans-serif;
   font-weight: bold;
   letter-spacing: 0.063;
-  
 }
 
 .actions .transaction_button {
@@ -326,7 +294,6 @@ footer {
   height: 1.875rem;
   border-radius: 0.313rem;
   border: none;
-  
 }
 
 /* .transactions {
@@ -340,21 +307,19 @@ footer {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgb(204, 204, 204);
- 
+
   padding: 0.313rem;
- 
 }
 
 .auth-form h2 {
   text-align: center;
- 
 }
 
 .auth-form .actions {
   display: flex;
   width: 100%;
   justify-content: center;
- 
+
   margin-top: 5px;
 }
 
@@ -364,13 +329,12 @@ footer {
   width: 95%;
   margin: 0.625rem auto;
   gap: 0.313rem;
-  
 }
 
 .auth-links a {
   color: rgb(67, 75, 84);
   text-decoration: none;
- 
+
   font-size: 0.813rem;
 }
 
