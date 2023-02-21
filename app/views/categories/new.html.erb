@@ -1,9 +1,9 @@
 <header>
 
-<%= link_to "Back", root_path, class: "back_btn"%>
+<%= link_to "Back", root_path, class: "back-button"%>
 <h1>New category</h1>
  <% if user_signed_in? %>
-   <%= button_to "Logout", destroy_user_session_path, method: :delete, data: {turbo: false}, class: "btn bg-danger"  %>
+   <%= button_to "Logout", destroy_user_session_path, method: :delete, data: {turbo: false}, class: "btn danger"  %>
  <% end %>
 </header>
 <main>

@@ -1,12 +1,12 @@
-<section class= "category_card">
+<section class= "category-div">
 <%= image_tag category.icon, class:'icon'%>
 <div class= "details">
-<span class= "top_data">
+<span class= "category-top">
 <h2 class= "category_name"> <%= category.name %></h2>
 <span class= "category_total"> <%= number_to_currency(category.total_amount)%></span>
 </span>
 
- <span class="bottom_data">
+ <span class="category-bottom ">
       <time data="<%= category.created_at %>"><%= category.created_at.strftime("%e %B %Y") %></time>
       <% if can? :destroy, category %>
           <% if request.path != '/' %>
