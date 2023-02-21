@@ -14,7 +14,6 @@ RSpec.feature 'Groups', type: :feature do
     expect(page).to have_content('Welcome! You have signed up successfully.')
   end
 
-
   scenario 'Add a new category for the app' do
     click_link 'Add a new category'
     fill_in 'Category Name', with: 'spices'
