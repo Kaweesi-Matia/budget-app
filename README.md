@@ -102,7 +102,7 @@ To setup and install this sample ROR Blog project, follow the below steps:
 - Clone this project by the command: 
 
 ```
-$ git clone https://github.com/NahnahAJ/Ruby-on-Rails-capstone-project---Budget-App.git
+$ git clone https://github.com/Kaweesi-Matia/budget-app.git
 ```
 
 - Then switch to the project folder by the bellow query:

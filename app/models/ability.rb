@@ -10,7 +10,7 @@ class Ability
 
     return unless user.present?
 
-    can :destroy, Category, user: user
+    can(:destroy, Category, user:)
     can :destroy, Transaction, user:
     # Define abilities for the user here. For example:
     #
