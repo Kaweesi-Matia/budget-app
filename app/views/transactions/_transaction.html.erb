@@ -3,6 +3,6 @@
 <span><%= transaction.created_at.strftime("%e %B %Y") %></span>
 <span> <%= number_to_currency(transaction.amount) %></span>
   <% if can? :destroy, transaction %>
-     <%= button_to 'detele', category_transaction_path(id: transaction.id), method: :delete,  data: {turbo: false}, class: 'btn bg-danger' %>
+     <%= button_to 'detele', category_transaction_path(id: transaction.id), method: :delete,  data: {turbo: false}, class: 'btn danger' %>
   <% end %>
 </div>
