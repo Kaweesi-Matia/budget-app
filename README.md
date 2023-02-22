@@ -57,7 +57,7 @@
 
 ### Key Features <a name="key-features"></a>
 - Making use of Ruby on Rails
-- Making use of PostgreSQL
+- Making use of PostgreSQL .
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
