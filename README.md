@@ -66,7 +66,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> [Budget App Demo](budget-app-pearl-ten.vercel.app)
+> [Budget App Demo](https://budget-app-6zrj.onrender.com)
 
 ## Video Presentation <a name="video-demo"></a>
 
