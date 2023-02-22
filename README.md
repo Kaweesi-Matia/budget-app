@@ -66,11 +66,11 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> [Budget App Demo](https://www.loom.com/share/07b2b07151d345c5b7279da4869e31f1)
+> [Budget App Demo](budget-app-pearl-ten.vercel.app)
 
 ## Video Presentation <a name="video-demo"></a>
 
-> [Video Presentation]()
+> [Video Presentation](https://www.loom.com/share/07b2b07151d345c5b7279da4869e31f1)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

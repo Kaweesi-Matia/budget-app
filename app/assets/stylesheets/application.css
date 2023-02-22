@@ -15,8 +15,8 @@
  */
 
 :root {
-  --header-height: 55px;
-  --footer-height: 45px;
+  --header-height: 3.438rem;
+  --footer-height: 2.813rem;
 }
 
 @font-face {
@@ -221,10 +221,10 @@ footer {
   justify-content: center;
 }
 
-.input-wrapper select,
+.input_container select,
 .new_category .category-input input,
 .new_transaction .input-fields input,
-.auth-form .field input:not([type="checkbox"]) {
+.authentication_form .field input:not([type="checkbox"]) {
   display: flex;
   height: 2rem;
   padding: 0.25rem;
@@ -249,20 +249,18 @@ footer {
   border-radius: 0.313rem;
   margin-top: 0;
   margin-left: 5px;
-
-  /* box-shadow: 0 3px 6px #434b54; */
   font-size: 0.875rem;
   cursor: pointer;
 }
 
-.auth-form .field,
+.authentication_form .field,
 .new_transaction .input-fields,
 .new_category .input-fields {
   width: 100%;
 }
 
-.auth-form,
-.input-wrapper {
+.authentication_form,
+.input_container {
   width: 95%;
   flex-direction: column;
   display: flex;
@@ -270,7 +268,7 @@ footer {
   padding: 0.25rem;
 }
 
-.auth-form .field input::placeholder,
+.authentication_form .field input::placeholder,
 .new_transaction .input-fields input::placeholder,
 .new_category .input-fields input::placeholder {
   font-size: 0.813rem;
@@ -293,11 +291,11 @@ footer {
   padding: 0.313rem;
 }
 
-.auth-form h2 {
+.authentication_form h2 {
   text-align: center;
 }
 
-.auth-form .actions {
+.authentication_form .actions {
   display: flex;
   width: 100%;
   justify-content: center;

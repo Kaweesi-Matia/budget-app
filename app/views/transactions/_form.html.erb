@@ -12,17 +12,17 @@
   <% end %>
 
   <div class= 'input-fields'>
-  <div class= input-wrapper>
+  <div class= input_container>
     <%= form.label  "Choose Category"  %>
     <%= form.collection_select(:category_id, Category.all, :id, :name, {:prompt => 'Select a Category', :selected => @category.id }, { required: true })%>
   </div>  
   
-  <div class= input-wrapper>
+  <div class= input_container>
     <%= form.label  "Product"  %>
     <%= form.text_field :name, autofocus: true, placeholder: "Item name", required: true %>
   </div>  
 
-  <div class= input-wrapper>
+  <div class= input_container>
     <%= form.label  "Amount"  %>
     <%= form.number_field :amount, autofocus: true, step: 0.01, placeholder: "Amount", required: true %>
   </div>  
