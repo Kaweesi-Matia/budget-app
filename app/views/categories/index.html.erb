@@ -1,0 +1,21 @@
+<header>
+<h1>Budget App</h1>
+<%= button_to "Logout", destroy_user_session_path, method: :delete, data: {turbo: false}, class: "btn danger"  %>
+</header>
+
+<main>
+ <% if @categories.any? %>
+  <% @categories.each do |category| %>
+  <%= link_to render(category), category_transactions_path(category), class: '
+  category-container'%> 
+<% end %> 
+ <% else %>
+ <p style="margin-top: 50px; text-align:center; color: orange; font-weight:bold;">
+    There is no category added yet!
+  </p>
+<% end %>
+</main>
+
+<footer>
+<%= link_to "Add a new category", new_category_path %>
+</footer>

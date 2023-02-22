@@ -1,0 +1,15 @@
+<header>
+
+<%= link_to "Back", root_path, class: "back-button"%>
+<h1>New category</h1>
+ <% if user_signed_in? %>
+   <%= button_to "Logout", destroy_user_session_path, method: :delete, data: {turbo: false}, class: "btn danger"  %>
+ <% end %>
+</header>
+<main>
+<%= render "form", category: @category %>
+</main>
+
+<footer>
+  <%= link_to "Back to categories", categories_path %>
+</footer>

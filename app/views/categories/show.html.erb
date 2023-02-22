@@ -1,0 +1,20 @@
+<header>
+
+<%= link_to "Back", categories_path, class: "back-button"%>
+<h1>Budget App</h1>
+  <% if user_signed_in? %>
+    <%= link_to "Logout", destroy_user_session_path, method: :delete, class: "btn danger" %>
+  <% end %>
+</header>
+
+
+<%= render @category %>
+
+<div class="category_actions">
+  <%= link_to "Edit", edit_category_path(@category) %>
+  <%= button_to "Destroy category", @category, method: :delete %>
+</div>
+
+<footer>
+  <%= link_to "Add new transaction", new_category_transaction %>
+</footer>
