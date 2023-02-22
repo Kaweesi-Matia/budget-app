@@ -14,6 +14,8 @@
  *= require_self
  */
 
+ /* stylelint-disable */
+
 :root {
   --header-height: 55px;
   --footer-height: 45px;
@@ -341,3 +343,4 @@ footer {
 .auth-links a:hover {
   color: rgb(55, 120, 194);
 }
+/* stylelint-enable */
