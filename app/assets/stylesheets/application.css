@@ -14,8 +14,6 @@
  *= require_self
  */
 
- /* stylelint-disable */
-
 :root {
   --header-height: 55px;
   --footer-height: 45px;
@@ -73,13 +71,12 @@ footer a {
 body {
   color: rgb(67, 75, 84);
   font-family: "Proxima Nova Light", "Lato", sans-serif;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 header {
   display: flex;
-
   flex-direction: row;
   justify-content: space-between;
   height: var(--header-height);
@@ -95,16 +92,13 @@ header * {
 
 .login-button {
   display: inline-flex;
-
   border: none;
   text-decoration: none;
   color: rgb(67, 75, 84);
   background: rgb(67, 75, 84);
-
   text-align: center;
   height: 30px;
   border-radius: 5px;
-
   font-size: 0.938rem;
   cursor: pointer;
 }
@@ -120,8 +114,8 @@ main {
   flex-flow: column;
   top: calc(var(--header-height) + 15px);
   bottom: var(--footer-height);
-  left: 0px;
-  right: 0px;
+  left: 0;
+  right: 0;
   background-color: white;
 }
 
@@ -132,9 +126,9 @@ footer {
   justify-content: center;
   height: var(--footer-height);
   background: rgb(95, 181, 35);
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
+  bottom: 0;
+  right: 0;
+  left: 0;
   align-items: center;
   align-content: center;
 }
@@ -142,14 +136,12 @@ footer {
 .category-container {
   display: flex;
   width: 100%;
-
   text-decoration: none;
 }
 
 .category-div {
   display: flex;
   width: calc(100% - 1rem);
-
   align-items: center;
   padding: 0.625rem;
 }
@@ -178,7 +170,7 @@ footer {
 }
 
 .category-div .details .category-top .category_name {
-  margin: 0px;
+  margin: 0;
   font-size: 1rem;
 }
 
@@ -201,7 +193,7 @@ footer {
   background: #fff !important;
   color: #ff4500 !important;
   border-radius: 2px;
-  
+
 } */
 
 .category-div .details time {
@@ -217,7 +209,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  
+
 } */
 
 .actions input {
@@ -225,7 +217,6 @@ footer {
   background-color: rgb(55, 120, 194);
   color: rgb(255, 255, 255);
   cursor: pointer;
-
   display: flex;
   justify-content: center;
 }
@@ -239,7 +230,6 @@ footer {
   padding: 0.25rem;
   border-radius: 0.313rem;
   width: 100%;
-
   margin-top: 10px;
   border: 1px solid rgb(67, 75, 84);
   color: rgb(67, 75, 84);
@@ -248,7 +238,6 @@ footer {
 
 .back-button {
   display: inline-flex;
-
   padding: 6px;
   border: none;
   text-decoration: none;
@@ -258,9 +247,9 @@ footer {
   align-content: center;
   height: 1.875rem;
   border-radius: 0.313rem;
-
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 5px;
+
   /* box-shadow: 0 3px 6px #434b54; */
   font-size: 0.875rem;
   cursor: pointer;
@@ -278,17 +267,16 @@ footer {
   flex-direction: column;
   display: flex;
   margin: 0 auto;
-
   padding: 0.25rem;
 }
 
 .auth-form .field input::placeholder,
 .new_transaction .input-fields input::placeholder,
 .new_category .input-fields input::placeholder {
-  font-size: 0.813;
+  font-size: 0.813rem;
   font-family: "Proxima Nova Light", "Lato", sans-serif;
   font-weight: bold;
-  letter-spacing: 0.063;
+  letter-spacing: 0.063rem;
 }
 
 .actions .transaction_button {
@@ -298,18 +286,10 @@ footer {
   border: none;
 }
 
-/* .transactions {
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  background-color: red;
-} */
-
 #transactions .transaction {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgb(204, 204, 204);
-
   padding: 0.313rem;
 }
 
@@ -321,7 +301,6 @@ footer {
   display: flex;
   width: 100%;
   justify-content: center;
-
   margin-top: 5px;
 }
 
@@ -336,11 +315,9 @@ footer {
 .auth-links a {
   color: rgb(67, 75, 84);
   text-decoration: none;
-
   font-size: 0.813rem;
 }
 
 .auth-links a:hover {
   color: rgb(55, 120, 194);
 }
-/* stylelint-enable */
