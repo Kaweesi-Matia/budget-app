@@ -57,7 +57,7 @@
 
 ### Key Features <a name="key-features"></a>
 - Making use of Ruby on Rails
-- Making use of PostgreSQL
+- Making use of PostgreSQL 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -66,7 +66,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> [Budget App Demo](budget-app-pearl-ten.vercel.app)
+> [Budget App Demo](https://budget-app-6zrj.onrender.com)
 
 ## Video Presentation <a name="video-demo"></a>
 
